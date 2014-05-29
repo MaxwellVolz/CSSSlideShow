@@ -32,7 +32,22 @@ html, body{
 	margin:0px;
 	padding:0px;
 	background-color:#333;
+	animation:sliding 12s ease-in-out 2s infinite alternate;
+	-webkit-animation:sliding 10s ease-in-out 2s infinite alternate;
 }
+
+@keyframes sliding
+{
+from {marign-left:0px;}
+to {margin-left:1600px;}
+}
+
+@-webkit-keyframes sliding
+{
+from {marign-left:0px;}
+to {margin-left:-1600px;}
+}
+
 .slide{
 	float:left;
 	height:400px;
@@ -55,4 +70,7 @@ html, body{
 }
 #slide5{
 	background-image:url(images/img5.jpg);
+}
+.slide:active{ 
+	margin-left:-400px;
 }
