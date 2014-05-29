@@ -1,10 +1,6 @@
-CSSSlideShow
+HTML+CSS SlideShow
 ============
 
-Slideshow without javascript/jquery
+Simple looping slideshow that plays on hover.
 
-first commit test
-
-second time for good measure
-
-third times for getting better at vim
+Javascript? Don't need it.
