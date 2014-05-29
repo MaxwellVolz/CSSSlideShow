@@ -1,4 +1,6 @@
 CSSSlideShow
 ============
 
-slideshow without javascript/jquery
+Slideshow without javascript/jquery
+
+first commit test
