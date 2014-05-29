@@ -7,4 +7,52 @@ html, body{
 	overflow:hidden;
 	margin:0px;
 	padding:0px;
+	background-color:#888;
+}
+
+#contentWrapper{
+	height:420px;
+	width:420px;
+	overflow:hidden;
+	margin:10% auto;
+	padding:0px;
+	background-color:#000;
+}
+#slideWrapper{
+	height:400px;
+	width:400px;
+	overflow:hidden;
+	margin:10px;
+	padding:0px;
+	background-color:#999;
+}
+#slideReel{
+	height:400px;
+	width:2000px;
+	margin:0px;
+	padding:0px;
+	background-color:#333;
+}
+.slide{
+	float:left;
+	height:400px;
+	width:400px;
+	margin:0px;
+	padding:0px;
+	background-color:#FFF;
+}
+#slide1{
+	background-image:url(images/img1.jpg);
+}
+#slide2{
+	background-image:url(images/img2.jpg);
+}
+#slide3{
+	background-image:url(images/img3.jpg);
+}
+#slide4{
+	background-image:url(images/img4.jpg);
+}
+#slide5{
+	background-image:url(images/img5.jpg);
 }
