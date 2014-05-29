@@ -34,17 +34,19 @@ html, body{
 	background-color:#333;
 	animation:sliding 12s ease-in-out 2s infinite alternate;
 	-webkit-animation:sliding 10s ease-in-out 2s infinite alternate;
+	animation-play-state:paused;
+	-webkit-animation-play-state:paused;
 }
 
 @keyframes sliding
 {
-from {marign-left:0px;}
+from {margin-left:0px;}
 to {margin-left:1600px;}
 }
 
 @-webkit-keyframes sliding
 {
-from {marign-left:0px;}
+from {margin-left:0px;}
 to {margin-left:-1600px;}
 }
 
@@ -56,6 +58,13 @@ to {margin-left:-1600px;}
 	padding:0px;
 	background-color:#FFF;
 }
+
+/* Resume the slideshow */
+#slideReel:hover{ 
+	animation-play-state:running;
+	-webkit-animation-play-state:running; 
+}
+
 #slide1{
 	background-image:url(images/img1.jpg);
 }
@@ -70,7 +79,4 @@ to {margin-left:-1600px;}
 }
 #slide5{
 	background-image:url(images/img5.jpg);
-}
-.slide:active{ 
-	margin-left:-400px;
 }
